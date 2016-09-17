@@ -11,5 +11,4 @@ return [
     "exclude_analysis_directory_list" => [
         'vendor/'
     ],
-    'progress_bar' => true,
 ];
