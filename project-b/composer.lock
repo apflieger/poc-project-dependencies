@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "02df49c89f51cb582b4e602742ffc908",
+    "hash": "8b78e3e82612332e73f5220f5423a57b",
     "content-hash": "c07c6fe3bb08e39729685ea636db94e4",
     "packages": [
         {
@@ -13,10 +13,15 @@
             "dist": {
                 "type": "path",
                 "url": "../project-a/",
-                "reference": "be2094c176cd7157bda074266050c34e22223f81",
+                "reference": "f25443a6702013ad1be8052ecf0b9e28315285d8",
                 "shasum": null
             },
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": "src/"
+                }
+            },
             "authors": [
                 {
                     "name": "Arnaud Pflieger",

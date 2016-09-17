@@ -14,5 +14,8 @@
     ],
     "require": {
         "apflieger/project-a": "*"
+    },
+    "autoload": {
+        "psr-4": {"": "src/"}
     }
 }
