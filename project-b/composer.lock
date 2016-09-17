@@ -1,0 +1,36 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "02df49c89f51cb582b4e602742ffc908",
+    "content-hash": "c07c6fe3bb08e39729685ea636db94e4",
+    "packages": [
+        {
+            "name": "apflieger/project-a",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "../project-a/",
+                "reference": "be2094c176cd7157bda074266050c34e22223f81",
+                "shasum": null
+            },
+            "type": "library",
+            "authors": [
+                {
+                    "name": "Arnaud Pflieger",
+                    "email": "pflieger.arnaud@gmail.com"
+                }
+            ]
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

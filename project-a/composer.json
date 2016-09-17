@@ -1,0 +1,11 @@
+{
+    "name": "apflieger/project-a",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Arnaud Pflieger",
+            "email": "pflieger.arnaud@gmail.com"
+        }
+    ],
+    "require": {}
+}
