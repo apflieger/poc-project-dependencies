@@ -4,7 +4,8 @@ This is a prototype of static analysis of projects dependencies.
 
 project-b depends on project-a. `phan` is installed and configured to check projects independently.
 
-# Make it run
+# Make it run in project-b
+
 ```
 cd project-b
 composer install
@@ -26,3 +27,13 @@ rm vendor/apflieger/project-a
 cp -R ../project-a vendor/apflieger/
 ./vendor/bin/phan
 ```
+
+# Make it fail in project-a
+
+```
+cd project-b
+composer install
+./vendor/bin/phan
+```
+
+We expect this to fail because ClassA uses ClassBB that belongs to project-b
