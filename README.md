@@ -4,29 +4,17 @@ This is a prototype of static analysis of projects dependencies.
 
 project-b depends on project-a. `phan` is installed and configured to check projects independently.
 
+'phan' requires php7 and the AST plugin
+
 # Make it run in project-b
 
 ```
 cd project-b
 composer install
-```
-
-composer creates a symlink in vendor/apflieger because of the 'path' repository declared in composer.json
-
-now run
-```
 ./vendor/bin/phan
 ```
-An error occurs saying that ClassA is not defined. ClassA comes from a symlink of project-a in vendor/apflieger/.
-`phan` doesn't follow symlinks.
+phan passes successfully
 
-This will make phan pass.
-
-```
-rm vendor/apflieger/project-a
-cp -R ../project-a vendor/apflieger/
-./vendor/bin/phan
-```
 
 # Make it fail in project-a
 
