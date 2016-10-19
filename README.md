@@ -4,7 +4,7 @@ This is a prototype of static analysis of projects dependencies.
 
 project-b depends on project-a. `phan` is installed and configured to check projects independently.
 
-'phan' requires php7 and the AST plugin
+`phan` requires php7 and the AST plugin
 
 # Make it run in project-b
 
